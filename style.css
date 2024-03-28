@@ -1,0 +1,49 @@
+body {
+    font-family: sans-serif;
+    background-image: url(Ride2.jpg);
+    background-size:950px 760px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    margin: 50;
+    padding: 5px;
+  }
+ 
+  header {
+    text-align: center;
+  }
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  section {
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input, button {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+  }
+  
